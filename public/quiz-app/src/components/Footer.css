@@ -1,0 +1,24 @@
+.first img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 1000px;
+}
+
+.home-footer{
+    height: 50px;
+    border: white;
+    background-color: rgb(24, 90, 90);
+    text-align: center;
+}
+
+.author{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.copywrite{
+  position: absolute;
+  right: 10px;
+}

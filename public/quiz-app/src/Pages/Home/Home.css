@@ -1,0 +1,71 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .settings {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+   
+  }
+  
+  .banner {
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+  }
+  
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .banner {
+      width: 85%;
+      padding: 0;
+      padding-top: 20px;
+    }
+    .settings {
+      width: 100%;
+    }
+  }
+  
+  .settings__select {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+    background-color: rgb(247, 247, 247);
+    border-radius: 35px;
+    
+  }
+
+  .text{
+    border:  1px solid red;
+  }
+
+  .but{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+    background-color: rgb(194, 10, 163);
+    border-radius: 50px;
+  }
+  .but:hover{
+    background: rgb(90, 5, 26);
+    opacity: 0.5;
+    transform: scale(1.01);
+  }
